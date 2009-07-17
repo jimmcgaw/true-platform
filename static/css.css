@@ -1,5 +1,5 @@
 ﻿*{
-	margin:0;padding:0;
+	margin:0;padding:0;font-family:Verdana;
 }
 
 .bn{
@@ -28,6 +28,7 @@ div#topnav_inner a{
 	color:white;
 	text-decoration:none;
 	margin-right:25px;
+	font-size:small;
 }
 
 div#banner_bottom{
@@ -61,4 +62,67 @@ div#bigsection{
 	height:237px;
 	border-bottom:solid 10px #D3DBDE;
 
+}
+
+div#bigsection_image{
+	width:900px;
+	height:237px;
+	background-image:url('images/bigsection_home.jpg');
+	margin: 0 auto;
+}
+
+ul#mainnav{
+	width:860px;
+	padding-left:40px;
+	margin: 0 auto;
+}
+
+ul#mainnav li{
+	display:block;
+	float:left;
+	padding: 0 20px 0 20px;
+}
+
+ul#mainnav li.current{
+	display:block;
+	float:left;
+	background-color:#D5DBDF;
+}
+
+ul#mainnav li a{
+	color:#696969;
+	text-decoration:none;
+}
+
+div#content{
+	font-family:Roman;
+	width:100%;
+	border-bottom:solid 47px #D3DBDE;
+}
+
+div#content_inner{
+	padding:15px;
+	width:860px;
+	padding-left:40px;
+	margin: 0 auto;
+}
+
+div#content_inner h1{
+	text-transform:uppercase;
+	color:#999999;
+	font-size:medium;
+}
+
+div#footer{
+	height:102px;
+	width:100%;
+	background-image:url('images/footer_splice.jpg');
+	margin: 0 auto;
+	border-top:solid 1px #F2F2F2;
+	border-bottom:solid 1px #D2D2D2;
+}
+
+div#site_bottom{
+	height:47px;
+	background-color:#D3DBDE;
 }
