@@ -5,8 +5,8 @@ import os
 
 DIRNAME = os.path.abspath(os.path.dirname(__file__).decode('utf-8'))
 
-DJANGO_PROJECT = 'true-platform'
-DJANGO_SETTINGS_MODULE = 'true-platform.settings'
+DJANGO_PROJECT = 'trueplatform'
+DJANGO_SETTINGS_MODULE = 'trueplatform.settings'
 
 LOCAL_DEV = True
 DEBUG = True
@@ -83,7 +83,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.i18n'
 )
 
-ROOT_URLCONF = 'satchmo.urls'
+ROOT_URLCONF = 'trueplatform.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates".
@@ -125,7 +125,7 @@ INSTALLED_APPS = (
     'satchmo.wishlist',
     'satchmo.upsell',
     'satchmo.productratings',
-    'true-platform.truesite',
+    'trueplatform.truesite',
     # FIXME: 'dummy' app is only for porting over
     # data from the mystique site
     # ****

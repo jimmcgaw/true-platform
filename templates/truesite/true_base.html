@@ -1,0 +1,60 @@
+{% extends "truesite/base.html" %}
+
+{% block site_wrapper %}
+		<div id="main">
+			<div id="topnav">
+				<div id="topnav_inner">
+					<a href="/">company</a>
+					<a href="/solutions/">solutions</a>
+					<a href="/contact/">contact</a>
+					<a href="http://blog.true-platform.com/">blog</a>
+				</div>
+			</div>
+			<div id="banner">
+				<div id="banner_inner">
+					<a href="/">
+					<img src="/static/css/images/trueplatform_logo.png" alt="True Platform" class="bn" />
+					</a>
+				</div>
+			</div>
+			<div id="banner_bottom"></div>
+			<div id="mainnav">
+				<ul id="mainnav">
+					<li class="current">
+						<a href="/">ecommerce</a>
+					</li>
+					<li>
+						<a href="/design/">design</a>
+					</li>
+					<li>
+						<a href="/integration/">integration</a>
+					</li>
+					<li>
+						<a href="/marketing/">marketing</a>
+					</li>
+				</ul>
+			</div>
+			
+			
+			<div id="bigsection">
+				<div id="bigsection_image"></div>
+			</div>
+			
+			<div id="content">
+				<div id="content_inner">
+				    {% block content %}{% endblock %}
+				</div>
+			</div>
+			
+			<div id="footer">
+				<div id="footer_inner">
+					<div id="product_package"></div>
+				</div>
+			</div>
+			<div id="site_bottom">
+				<div id="site_bottom_inner">
+					<img src="/static/css/images/footer_logo.jpg" alt="true platform" /> Copyright &copy; 2009 True Platform, Inc. All rights reserved.
+				</div>
+			</div>
+		</div>
+{% endblock %}

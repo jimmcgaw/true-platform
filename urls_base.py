@@ -28,6 +28,5 @@ urlpatterns = patterns('',
         'satchmo_sitemap_xml'),
     (r'settings/', include('satchmo.configuration.urls')),
     (r'cache/', include('satchmo.caching.urls')),
-    (r'^', include('truesite.urls')),
 )
 
