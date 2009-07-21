@@ -1,0 +1,5 @@
+2009-07-21 15:04:59,204 root        : INFO     Satchmo Started
+2009-07-21 15:05:00,087 product.models: DEBUG    registered base search listener
+2009-07-21 15:05:13,916 recentlist.middleware: DEBUG    Product url is ^/hop/product/(?P<slug>[-\w]+)/
+eware: DEBUG    Product url is ^/hop/product/(?P<slug>[-\w]+)/
++)/
