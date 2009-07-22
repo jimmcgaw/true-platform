@@ -17,7 +17,7 @@ else:
 
 urlpatterns += patterns('',
     (r'^admin/(.*)', admin.site.root),
-    (r'^', include('trueplatform.truesite.urls')),
+    (r'^', include('truesite.urls')),
 )
     
 #The following is used to serve up local media files like images

@@ -20,9 +20,9 @@ MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'mysql'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
 # The following variables should be configured in your local_settings.py file
-DATABASE_NAME = 'levicci'             # Or path to database file if using sqlite3.
-DATABASE_USER = 'lingerie'             # Not used with sqlite3.
-DATABASE_PASSWORD = 'l1ng3r13'         # Not used with sqlite3.
+DATABASE_NAME = 'trueplatform'             # Or path to database file if using sqlite3.
+DATABASE_USER = 'ecomsuite'             # Not used with sqlite3.
+DATABASE_PASSWORD = '3c0msu1t3'         # Not used with sqlite3.
 DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
 DATABASE_PORT = ''             # Set to empty string for default. Not used with sqlite3.
 
