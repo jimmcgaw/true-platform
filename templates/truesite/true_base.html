@@ -5,7 +5,7 @@
 			<div id="topnav">
 				<div id="topnav_inner">
 					<a href="/">company</a>
-					<a href="/solutions/">solutions</a>
+					<a href="/integration/">solutions</a>
 					<a href="/contact/">contact</a>
 					<a href="http://blog.true-platform.com/">blog</a>
 				</div>
@@ -20,16 +20,16 @@
 			<div id="banner_bottom"></div>
 			<div id="mainnav">
 				<ul id="mainnav">
-					<li class="current">
+					<li {% ifequal request.path "/" %}class="current" {% endifequal %}>
 						<a href="/">ecommerce</a>
 					</li>
-					<li>
+					<li {% ifequal request.path "/design/" %}class="current" {% endifequal %}>
 						<a href="/design/">design</a>
 					</li>
-					<li>
+					<li {% ifequal request.path "/integration/" %}class="current" {% endifequal %}>
 						<a href="/integration/">integration</a>
 					</li>
-					<li>
+					<li {% ifequal request.path "/marketing/" %}class="current" {% endifequal %}>
 						<a href="/marketing/">marketing</a>
 					</li>
 				</ul>

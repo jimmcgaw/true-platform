@@ -3,7 +3,7 @@
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="Stylesheet" type="text/css" href="/static/css/css.css" >
-        <title>{{ page_title }}</title>
+        <title>{% if page_title %}{{ page_title }} - {% endif %}{{ shop_name }}</title>
 </head>
 <body>
 {% block site_wrapper %}{% endblock %}

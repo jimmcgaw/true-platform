@@ -72,6 +72,7 @@ MIDDLEWARE_CLASSES = (
     "threaded_multihost.middleware.ThreadLocalMiddleware",
     "satchmo.shop.SSLMiddleware.SSLRedirect",
     "satchmo.recentlist.middleware.RecentProductMiddleware",
+    "trueplatform.urlcanon.URLCanonicalizationMiddleware",
 )
 
 #this is used to add additional config variables to each request
