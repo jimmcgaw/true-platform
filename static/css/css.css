@@ -66,12 +66,30 @@ div#mainnav{
 	border-bottom:solid 1px #CCC4C2;
 }
 
-div#middle_banner{
+div#middle_banner_home{
 	background-color:#446392;
 	height:237px;
 	border-bottom:solid 10px #D3DBDE;
-
 }
+
+div#middle_banner_design{
+	background-color:#891C1F;
+	height:237px;
+	border-bottom:solid 10px #D3DBDE;
+}
+
+div#middle_banner_integration{
+	background-color:#C07F17;
+	height:237px;
+	border-bottom:solid 10px #D3DBDE;
+}
+
+div#middle_banner_marketing{
+	background-color:#1A6C0A;
+	height:237px;
+	border-bottom:solid 10px #D3DBDE;
+}
+
 
 div#banner_home{
 	width:900px;
