@@ -66,19 +66,41 @@ div#mainnav{
 	border-bottom:solid 1px #CCC4C2;
 }
 
-div#bigsection{
+div#middle_banner{
 	background-color:#446392;
 	height:237px;
 	border-bottom:solid 10px #D3DBDE;
 
 }
 
-div#bigsection_image{
+div#banner_home{
 	width:900px;
 	height:237px;
-	background-image:url('images/bigsection_home.jpg');
+	background-image:url('images/banner_home.jpg');
 	margin: 0 auto;
 }
+
+div#banner_design{
+	width:900px;
+	height:237px;
+	background-image:url('images/banner_design.jpg');
+	margin: 0 auto;
+}
+
+div#banner_integration{
+	width:900px;
+	height:237px;
+	background-image:url('images/banner_integration.jpg');
+	margin: 0 auto;
+}
+
+div#banner_marketing{
+	width:900px;
+	height:237px;
+	background-image:url('images/banner_marketing.jpg');
+	margin: 0 auto;
+}
+
 
 ul#mainnav{
 	width:860px;
